@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mi primer formulario</title>
+</head>
+<body>
+	<h1 id="Titulo">Formulario inscripción curso</h1>
+	<p>Bienvenido al formulario para inscribirse a cursos de Coderhouse</p>
+	<form>
+		<fieldset>
+			<legend>Datos personales</legend>
+			<p>
+				<label for="Nombre">Nombre</label>
+				<input id="Nombre" type="text" name="Nombre" placeholder="Ingrese nombre">
+			</p>
+			<p>
+				<label for="Apellido">Apellido</label>
+				<input id="Apellido" type="text" name="Nombre" placeholder="Ingrese apellido">
+			</p>
+			<p>
+				<label for="Rut">Rut</label>
+				<input id="Rut" type="text" name="Rut" placeholder="Ingrese Rut">
+			</p>
+			<p>
+				<label for="E-mail">E-mail</label>
+				<input id="E-mail" type="e-mail" name="E-mail" placeholder="Ingrese E-mail">
+			</p>
+			<p>
+				<label for="Edad">Edad</label>
+				<input id="Edad" type="number" name="Edad" placeholder="Ingrese Edad">
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Datos del curso</legend>
+			<p>
+				<label>¿Qué curso harás?</label>
+				<select>
+					<option value=""><i>Selecciona curso</i></option>
+					<optgroup label="Carrera normal">
+					<option value="DW">Nivel 1 - diseñador Web</option>
+					<option value="FE">Nivel 2 - Front end Experto</option>
+					<option value="FS">Nivel 3 - Full Stack Machine</option>
+					</optgroup>
+					<optgroup label="Carrera avanzada">
+					<option value="DW">Nivel 4 - Developing expert</option>
+					<option value="FE">Nivel 5 - OOh si</option>
+					<option value="FS">Nivel 6 - Ooh no</option>
+					</optgroup>
+				</select>
+			</p>
+		</fieldset>
+	</form>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<a href="http://www.google.com" target="_blank">Link absoluto a google</a>
+	<a href="tarea 1.html">Link Relativo (a otra página propia)</a>
+	<a href="#titulo">Ir al comienzo</a>
+	<a href="http://www.nasa.gov" target="_blank">
+	<img src="cohete.jpg"/>
+	</a>
+
+</body>
+</html>
