@@ -1,0 +1,26 @@
+- Cuando se respetan las buenas prácticas en programación (no cerrar tags, no respetar orden) disminuye tu prioridad en Google. 
+Por eso es mejor ocupar los tags "header", "main", "footer", etc.
+- <meta charset="UTF-8">: se usa para definir el conjunto de caracteres a utilizar. En español e inglés siempre se utiliza UTF-8
+- Metadato: dato que explica el dato 
+- Los tags que se cierran en sí mismos Ej.: <hr/> son porque nunca llevan contenido dentro
+- Cómo configurar Git Shell (se baja directo desde internet y luego se abre en terminal):
+git config --global user.name "Pablo H. Paladino"
+git config --global user.email "pepe@pepe.com"
+- Cómo navegar un terminal:
+ls ->listamos archivos
+ls -la ->listamos archivos con detalle
+cd ->cambiar directorio
+cd .. ->ir al directorio padre
+cd -- ->volver al home
+- Cómo subir un archivo modificado de Git:
+git status 
+->que archivos cambié.
+
+git add . 
+-> agrega al paquete todos los cambios.
+
+git commit -m "Agrego el link que faltaba"
+-> empaqueto los cambios y le pongo un comentario.
+
+git push origin master
+-> subir cambios al repositorio general

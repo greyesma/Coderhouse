@@ -1,0 +1,15 @@
+- Tipos de listas:
+<ol>	-- Ordered list
+<ul>    -- Unordered list
+<li>    -- List item
+<dl>    -- Definition list
+<dt>
+<dd>
+- Tablas:
+<table> -- Table
+<thead> -- Table head
+<th>    -- Table header
+<tr>    -- Table row      
+<td>    -- Table data
+<tbody> -- Table body
+<tfoot> -- Table footer
